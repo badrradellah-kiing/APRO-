@@ -1,0 +1,30 @@
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Frama-C
+*.session
+*.session.network
+
+# Logs et résultats (régénérables avec run_tests.sh)
+logs/
+bench_results*.md
+results.md
+RESULTS.md
+
+# C build
+*.o
+*.a
+a.out
+
+# Editeurs
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store

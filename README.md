@@ -5,7 +5,7 @@ Sécurité Informatique**, Aix-Marseille Université.
 
 **Étudiants** : Youssef Azizi, Badr Radellah
 **Encadrants** : Benjamin Monmège, Léo Henry
-**Axe** : B — analyse de pointeurs et d'aliasing
+**Axe** : B — analyse de pointeurs et d'aliasing (+ extension axe C : paramétrage)
 
 ---
 
@@ -33,6 +33,7 @@ démontrent** :
 | `4_domaines/` | quel domaine abstrait débloque quelle propriété |
 | `5_contrats_acsl/` | effet de chaque clause de contrat ACSL |
 | `6_catalogue/` | synthèse `friendly/` (EVA prouve) vs `hostile/` (EVA décroche) |
+| `7_parametrage/` | **axe C** : étude des paramètres slevel / unrolling / widening (précision vs coût) |
 | `tp/` | TP complémentaire : énoncé, corrigé, exercices |
 
 `run_tests.sh` relance tout et agrège les résultats dans `RESULTS.md`. Chaque
@@ -41,7 +42,7 @@ dossier a son `README.md`. Le rapport (PDF + LaTeX) est rendu à part.
 ## Lancer
 
 ```bash
-chmod +x run_tests.sh && ./run_tests.sh      # tout, -> RESULTS.md
+chmod +x run_tests.sh && ./run_tests.sh      
 ```
 
 Vue rapide marche / décroche :

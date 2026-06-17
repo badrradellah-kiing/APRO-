@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "Frama-C",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/home/badr/.opam/4.14.1/share/frama-c/share/libc",
+        "/home/badr/.opam/4.14.1/share/frama-c/share/libc/**"
+      ],
+      "cStandard": "c11",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compilerArgs": [
+        "-D__FC_MACHDEP_X86_64"
+      ]
+    }
+  ],
+  "version": 4
+}
